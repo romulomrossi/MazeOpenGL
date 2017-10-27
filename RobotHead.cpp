@@ -19,7 +19,7 @@ class RobotHead
         gluQuadricDrawStyle(quadratic, GLU_LINE); // FILL or LINE
         glTranslated(0, moveRobotHeadCoordinateY/10, 0);
         glRotatef(angle++, 1, 0, 0);
-        gluSphere(quadratic,5,25,32); 
+        gluSphere(quadratic,4,25,32); 
         
         if(robotHeadMoveMode){
             moveRobotHeadCoordinateY+= 1;
